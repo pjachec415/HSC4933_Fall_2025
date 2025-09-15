@@ -25,7 +25,7 @@ while True:
                 temp_flt = float(temp)
                 return temp_flt
             except ValueError:
-                print("❌ Invalid input. Please enter a numeric value.")
+                print("Invalid input. Please enter a numeric value.")
 
     #If Statement for Calculating Temperature in Celsius and rejecting non-numeric values
     if c_or_f == "f":
